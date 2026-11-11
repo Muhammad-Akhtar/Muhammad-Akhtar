@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="t d">
   <title id="t">Tech stack</title>
-  <desc id="d">AI: LLMs, agentic AI, computer vision, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.</desc>
+  <desc id="d">AI: LLMs, agentic AI, AI agents, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#701A3D" stop-opacity="0.5"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
@@ -31,9 +31,9 @@
   <g transform="translate(406 250) rotate(45)"><rect x="-6" y="-6" width="12" height="12" fill="#190B12" stroke="#F8F0F3" stroke-opacity=".8"/></g><g transform="translate(794 250) rotate(45)"><rect x="-6" y="-6" width="12" height="12" fill="#190B12" stroke="#F8F0F3" stroke-opacity=".8"/></g>
     <g class="in" style="animation-delay:0.20s">
       <rect x="32" y="32" width="360" height="200" rx="16" fill="#10070C" fill-opacity=".72" stroke="#C77B9B" stroke-opacity=".2"/>
-      <text class="mono" x="56" y="68" font-size="10" letter-spacing="2" fill="#C77B9B">01 AI · LLM · VISION</text>
+      <text class="mono" x="56" y="68" font-size="10" letter-spacing="2" fill="#C77B9B">01 AI · LLM · AGENTS</text>
       <text class="serif" x="55" y="124" font-size="32" fill="#F8F0F3">LLMs · Agentic AI</text>
-      <text class="serif" x="56" y="164" font-size="22" fill="#F8F0F3">Computer Vision</text>
+      <text class="serif" x="56" y="164" font-size="22" fill="#F8F0F3">AI Agents</text>
       <text class="serif" x="56" y="198" font-size="20" fill="#B6A3AC">OpenAI API</text>
     </g>
     <g class="in" style="animation-delay:0.32s">

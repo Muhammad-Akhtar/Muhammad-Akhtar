@@ -9,7 +9,7 @@
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Akhtar.">
-<img src="assets/about.svg" width="100%" alt="About: Senior Software Engineer and AI Engineer with 6+ years across Vaival Technologies, Bitsoft and Graymatrix, growing from backend developer to full stack, senior, lead and AI software engineer. Primary stack Python with Django, FastAPI and Celery; AI work with LLMs, OpenAI, agentic AI and computer vision; also PHP, Laravel, CodeIgniter, React and Next.js.">
+<img src="assets/about.svg" width="100%" alt="About: Senior Software Engineer and AI Engineer with 6+ years across Vaival Technologies, Bitsoft and Graymatrix, growing from backend developer to full stack, senior, lead and AI software engineer. Primary stack Python with Django, FastAPI and Celery; AI work with LLMs, OpenAI, agentic AI and AI agents; also PHP, Laravel, CodeIgniter, React and Next.js.">
 
 <img src="assets/title-impact.svg" width="100%" alt="02 Impact — Numbers that held up.">
 <img src="assets/impact.svg" width="100%" alt="Impact: API response time cut from 14 seconds to 2 seconds with ElasticSearch; N8N workflows cut costs 25% and save $30K a year; 11GB+ of data integrated; 200+ KPIs; 190+ HR and payroll transactions; 98% accuracy across 197 employees; provisioning 95% faster.">
@@ -32,7 +32,7 @@
 </p>
 
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
-<img src="assets/tech-constellation.svg" width="100%" alt="Tech stack. AI: LLMs, agentic AI, computer vision, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.">
+<img src="assets/tech-constellation.svg" width="100%" alt="Tech stack. AI: LLMs, agentic AI, AI agents, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.">
 
 <img src="assets/title-commits.svg" width="100%" alt="05 Commit log — Building, in public.">
 <img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating my real public GitHub contributions over the past year, with totals, active days, longest streak and busiest day. Re-rendered daily by a GitHub Action.">

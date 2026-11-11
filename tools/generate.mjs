@@ -25,7 +25,7 @@ function hero() {
   const photo = fs.readFileSync(path.join(ROOT, "tools/src/akhtar.jpg")).toString("base64");
   const PX = 965, PY = 232, PR = 128, OR = 190;
   const orbit = [
-    ["LLM", -120], ["API", -30], ["DATA", 30], ["VISION", 150],
+    ["LLM", -120], ["API", -30], ["DATA", 30], ["AGENTS", 150],
   ].map(([label, deg]) => {
     const a = (deg * Math.PI) / 180;
     const x = PX + OR * Math.cos(a), y = PY + OR * Math.sin(a);
@@ -145,7 +145,7 @@ function about() {
   }).join("\n    ");
   const cards = [
     ["PRIMARY STACK", "Python", "Django · FastAPI · Celery"],
-    ["WHERE AI LIVES", "LLMs &amp; Vision", "OpenAI · agentic AI · computer vision"],
+    ["WHERE AI LIVES", "LLMs &amp; Agents", "OpenAI · agentic AI · workflow automation"],
     ["ALSO SHIPS IN", "PHP · Laravel", "CodeIgniter · React · Next.js"],
   ].map(([k, big, sub], i) => {
     const y = 66 + i * 102;
@@ -158,7 +158,7 @@ function about() {
     </g>`;
   }).join("\n    ");
   return `${open(W, H, "About Muhammad Akhtar",
-    "Senior Software Engineer and AI Engineer with 6+ years across Vaival Technologies, Bitsoft and Graymatrix. Grew from backend developer to full stack, senior, lead and AI software engineer. Primary stack Python with Django, FastAPI and Celery; AI work with LLMs, OpenAI, agentic AI and computer vision; also PHP, Laravel, CodeIgniter, React and Next.js.")}
+    "Senior Software Engineer and AI Engineer with 6+ years across Vaival Technologies, Bitsoft and Graymatrix. Grew from backend developer to full stack, senior, lead and AI software engineer. Primary stack Python with Django, FastAPI and Celery; AI work with LLMs, OpenAI, agentic AI and AI agents; also PHP, Laravel, CodeIgniter, React and Next.js.")}
   ${frame(W, H, { cx: "80%", cy: "20%" })}
   <defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="${C.text}" opacity=".025"/></pattern></defs>
   ${baseStyle()}
@@ -361,7 +361,7 @@ const artEviction = () => {
 function toolkit() {
   const W = 1200, H = 500;
   const cards = [
-    ["01 AI · LLM · VISION", "LLMs · Agentic AI", "Computer Vision", "OpenAI API", ""],
+    ["01 AI · LLM · AGENTS", "LLMs · Agentic AI", "AI Agents", "OpenAI API", ""],
     ["02 BACKEND", "Python", "Django · FastAPI · Celery", "PHP · Laravel · CodeIgniter", "PRIMARY"],
     ["03 FRONTEND", "React · Next.js", "JavaScript", "Chrome Extensions (MV3)", ""],
     ["04 DATA &amp; SEARCH", "PostgreSQL · MySQL", "MongoDB · Redis", "ElasticSearch", ""],
@@ -378,7 +378,7 @@ function toolkit() {
     </g>`;
   }).join("\n    ");
   return `${open(W, H, "Tech stack",
-    "AI: LLMs, agentic AI, computer vision, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.")}
+    "AI: LLMs, agentic AI, AI agents, OpenAI API. Backend: Python (primary) with Django, FastAPI and Celery; PHP with Laravel and CodeIgniter. Frontend: React, Next.js, JavaScript, Chrome extensions (MV3). Data and search: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch. Cloud and DevOps: AWS EC2, GitHub Actions, CI/CD. Automation and APIs: N8N, Stripe, OpenAI, RocketReach, FEC, Yardi.")}
   ${frame(W, H, { cx: "50%", cy: "50%", r: "55%", strength: 0.5 })}
   ${baseStyle()}
   <g stroke="${C.accent}" stroke-opacity=".14"><path d="M16 250 H1184"/><path d="M406 24 V476 M794 24 V476"/></g>
