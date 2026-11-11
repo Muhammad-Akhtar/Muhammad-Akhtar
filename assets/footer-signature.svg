@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-labelledby="t">
+  <title id="t">Akhtar — Difficult problems in. Simple, dependable solutions out.</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10070C"/><stop offset="1" stop-color="#190B12"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="110%" r="60%"><stop offset="0" stop-color="#701A3D" stop-opacity=".75"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/></radialGradient>
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="150" y1="0" x2="1050" y2="0"><stop offset="0" stop-color="#C77B9B" stop-opacity="0"/><stop offset=".5" stop-color="#E5B5C7" stop-opacity=".7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1.2s ease both; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.8s cubic-bezier(.65,0,.35,1) .4s forwards; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .d2{animation-delay:.3s}.d3{animation-delay:.6s}
+    @media (prefers-reduced-motion: reduce) {
+      .in, .fade, .blink { animation: none; }
+      .draw { animation: none; stroke-dashoffset: 0; }
+      .motion { display: none; }
+    }
+  </style>
+  <rect width="1200" height="230" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="230" rx="20" fill="url(#glow)"/>
+  <g class="in"><text class="serif" x="600" y="104" font-size="78" font-style="italic" text-anchor="middle" fill="#E5B5C7">Akhtar</text></g>
+  <path class="draw" d="M150 132 H1050" stroke="url(#rule)"/>
+  <circle cx="600" cy="132" r="3.5" fill="#F8F0F3"/>
+  <g class="in d2"><text class="serif" x="600" y="172" font-size="20" font-style="italic" text-anchor="middle" fill="#F8F0F3">Difficult problems in. Simple, dependable solutions out.</text></g>
+  <g class="in d3"><text class="mono" x="600" y="204" font-size="10.5" letter-spacing="3.4" text-anchor="middle" fill="#B6A3AC">AI ENGINEERING · FULL-STACK · SENIOR SOFTWARE ENGINEER</text></g>
+</svg>

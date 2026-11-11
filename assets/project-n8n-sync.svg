@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="t d">
+  <title id="t">Employee Data Sync: N8N workflows that keep employee records in step everywhere.</title>
+  <desc id="d">N8N Workflow Automation for employee data sync across ERPNext, Everee, Supabase and Zoho Shift: provisioning 95% faster, 98% accuracy and $30K a year saved.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="glow" cx="78%" cy="40%" r="55%"><stop offset="0" stop-color="#701A3D" stop-opacity="0.6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#F8F0F3" stroke-opacity=".03"/></pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1.2s ease both; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.8s cubic-bezier(.65,0,.35,1) .4s forwards; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}
+    @media (prefers-reduced-motion: reduce) {
+      .in, .fade, .blink { animation: none; }
+      .draw { animation: none; stroke-dashoffset: 0; }
+      .motion { display: none; }
+    }
+  </style>
+  <rect x="720" y="0" width="480" height="370" fill="url(#grid)"/>
+  <g class="in"><text class="mono" x="56" y="58" font-size="11" letter-spacing="3" fill="#C77B9B">03 · WORKFLOW AUTOMATION · N8N</text></g>
+  <g class="in d1"><text class="serif" x="54" y="118" font-size="46" letter-spacing="-.5" fill="#F8F0F3">Employee Data Sync</text></g>
+  <g class="in d2">
+    <text class="sans" x="56" y="158" font-size="17" fill="#B6A3AC">N8N workflows that keep employee records in step everywhere.</text>
+    <text class="mono" x="56" y="192" font-size="12.5" fill="#C77B9B">BUILT › <tspan fill="#F8F0F3">N8N workflows syncing ERPNext, Everee, Supabase and Zoho Shift</tspan></text>
+  </g>
+  <path class="draw" d="M56 220 H690" stroke="#C77B9B" stroke-opacity=".3"/>
+  <g class="in d3">
+      <text class="serif" x="56" y="270" font-size="36" fill="#F8F0F3">95%</text>
+      <text class="sans" x="57" y="293" font-size="13" fill="#B6A3AC">faster provisioning</text>
+      <text class="serif" x="261" y="270" font-size="36" fill="#F8F0F3">98%</text>
+      <text class="sans" x="262" y="293" font-size="13" fill="#B6A3AC">data accuracy</text>
+      <text class="serif" x="466" y="270" font-size="36" fill="#F8F0F3">$30K</text>
+      <text class="sans" x="467" y="293" font-size="13" fill="#B6A3AC">saved per year</text>
+  </g>
+  <g class="in d4">
+      <rect x="56" y="310" width="49" height="28" rx="14" fill="#451126" fill-opacity=".5" stroke="#C77B9B" stroke-opacity=".3"/>
+      <text class="mono" x="80.5" y="328" font-size="11.5" text-anchor="middle" fill="#E5B5C7">N8N</text>
+      <rect x="113" y="310" width="78" height="28" rx="14" fill="#451126" fill-opacity=".5" stroke="#C77B9B" stroke-opacity=".3"/>
+      <text class="mono" x="152" y="328" font-size="11.5" text-anchor="middle" fill="#E5B5C7">ERPNext</text>
+      <rect x="199" y="310" width="71" height="28" rx="14" fill="#451126" fill-opacity=".5" stroke="#C77B9B" stroke-opacity=".3"/>
+      <text class="mono" x="234.5" y="328" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Everee</text>
+      <rect x="278" y="310" width="85" height="28" rx="14" fill="#451126" fill-opacity=".5" stroke="#C77B9B" stroke-opacity=".3"/>
+      <text class="mono" x="320.5" y="328" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Supabase</text>
+      <rect x="371" y="310" width="99" height="28" rx="14" fill="#451126" fill-opacity=".5" stroke="#C77B9B" stroke-opacity=".3"/>
+      <text class="mono" x="420.5" y="328" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Zoho Shift</text>
+  </g>
+  <g class="fade d2">
+  <path d="M884 87 C925 87 925 175 966 175" fill="none" stroke="#C77B9B" stroke-opacity=".45" stroke-dasharray="3 5"/>
+    <circle class="motion" r="3.2" fill="#F8F0F3" filter="url(#soft)"><animateMotion dur="2.2s" begin="0s" repeatCount="indefinite" path="M884 87 C925 87 925 175 966 175"/></circle>
+    <path d="M884 279 C925 279 925 175 966 175" fill="none" stroke="#C77B9B" stroke-opacity=".45" stroke-dasharray="3 5"/>
+    <circle class="motion" r="3.2" fill="#F8F0F3" filter="url(#soft)"><animateMotion dur="2.2s" begin="0.5s" repeatCount="indefinite" path="M884 279 C925 279 925 175 966 175"/></circle>
+    <path d="M1050 87 C1008 87 1008 175 966 175" fill="none" stroke="#C77B9B" stroke-opacity=".45" stroke-dasharray="3 5"/>
+    <circle class="motion" r="3.2" fill="#F8F0F3" filter="url(#soft)"><animateMotion dur="2.2s" begin="1s" repeatCount="indefinite" path="M1050 87 C1008 87 1008 175 966 175"/></circle>
+    <path d="M1050 279 C1008 279 1008 175 966 175" fill="none" stroke="#C77B9B" stroke-opacity=".45" stroke-dasharray="3 5"/>
+    <circle class="motion" r="3.2" fill="#F8F0F3" filter="url(#soft)"><animateMotion dur="2.2s" begin="1.5s" repeatCount="indefinite" path="M1050 279 C1008 279 1008 175 966 175"/></circle>
+    <rect x="774" y="70" width="110" height="34" rx="17" fill="#10070C" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".4"/>
+    <text class="mono" x="829" y="91" font-size="11.5" text-anchor="middle" fill="#E5B5C7">ERPNext</text>
+    <rect x="774" y="262" width="110" height="34" rx="17" fill="#10070C" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".4"/>
+    <text class="mono" x="829" y="283" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Everee</text>
+    <rect x="1050" y="70" width="110" height="34" rx="17" fill="#10070C" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".4"/>
+    <text class="mono" x="1105" y="91" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Supabase</text>
+    <rect x="1050" y="262" width="110" height="34" rx="17" fill="#10070C" fill-opacity=".85" stroke="#C77B9B" stroke-opacity=".4"/>
+    <text class="mono" x="1105" y="283" font-size="11.5" text-anchor="middle" fill="#E5B5C7">Zoho Shift</text>
+    <rect x="920" y="129" width="92" height="92" rx="22" fill="#701A3D" stroke="#E5B5C7" stroke-opacity=".8"/>
+    <rect x="908" y="117" width="116" height="116" rx="28" fill="none" stroke="#C77B9B" stroke-opacity=".3" stroke-dasharray="2 6"/>
+    <text class="serif" x="966" y="177" font-size="26" text-anchor="middle" fill="#F8F0F3">N8N</text>
+    <text class="mono" x="966" y="197" font-size="9" letter-spacing="1.6" text-anchor="middle" fill="#E5B5C7">SYNC</text>
+    <text class="mono" x="966" y="338" font-size="10" letter-spacing="2" text-anchor="middle" fill="#B6A3AC">EMPLOYEE DATA · KEPT IN SYNC</text>
+  </g>
+</svg>

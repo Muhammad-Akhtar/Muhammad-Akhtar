@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="t d">
+  <title id="t">Impact</title>
+  <desc id="d">API response time cut from 14 seconds to 2 seconds with ElasticSearch. N8N workflow automation cut costs by 25% and saves $30K a year. 11GB+ of data integrated, 200+ KPIs, 190+ HR and payroll transactions, 98% accuracy across 197 employees, provisioning 95% faster.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="glow" cx="45%" cy="0%" r="60%"><stop offset="0" stop-color="#701A3D" stop-opacity="0.45"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="430" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="20" fill="url(#glow)"/>
+  <rect x=".5" y=".5" width="1199" height="429" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#451126" stop-opacity=".55"/><stop offset="1" stop-color="#10070C" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="cglow" cx="80%" cy="0%" r="80%"><stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8F0F3" stop-opacity=".22"/><stop offset="1" stop-color="#F8F0F3" stop-opacity="0"/></linearGradient>
+    <clipPath id="c1"><rect x="24" y="24" width="690" height="250" rx="16"/></clipPath>
+    <clipPath id="c2"><rect x="730" y="24" width="446" height="250" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1.2s ease both; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.8s cubic-bezier(.65,0,.35,1) .4s forwards; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    
+    @media (prefers-reduced-motion: reduce) {
+      .in, .fade, .blink { animation: none; }
+      .draw { animation: none; stroke-dashoffset: 0; }
+      .motion { display: none; }
+    }
+  </style>
+  <g class="in">
+    <rect x="24" y="24" width="690" height="250" rx="16" fill="url(#card)"/>
+    <rect x="24" y="24" width="690" height="250" rx="16" fill="url(#cglow)"/>
+    <text class="serif" x="700" y="140" font-size="124" text-anchor="end" fill="url(#ghost)" clip-path="url(#c1)">14s→2s</text>
+    <rect x="24.5" y="24.5" width="689" height="249" rx="15.5" fill="none" stroke="#C77B9B" stroke-opacity=".22"/>
+    <text class="mono" x="58" y="176" font-size="11" letter-spacing="3" fill="#C77B9B">ELASTICSEARCH · API PERFORMANCE</text>
+    <text class="serif" x="56" y="226" font-size="44" fill="#F8F0F3">14s → 2s <tspan font-style="italic" fill="#E5B5C7">response time</tspan></text>
+    <text class="sans" x="58" y="254" font-size="13.5" fill="#B6A3AC">API response time optimised with ElasticSearch</text>
+  </g>
+  <g class="in" style="animation-delay:.2s">
+    <rect x="730" y="24" width="446" height="250" rx="16" fill="#10070C" fill-opacity=".5"/>
+    <text class="serif" x="1200" y="128" font-size="120" font-style="italic" text-anchor="end" fill="none" stroke="#F8F0F3" stroke-opacity=".2" clip-path="url(#c2)">$30K</text>
+    <rect x="730.5" y="24.5" width="445" height="249" rx="15.5" fill="none" stroke="#C77B9B" stroke-opacity=".22"/>
+    <text class="mono" x="762" y="176" font-size="11" letter-spacing="3" fill="#C77B9B">N8N · WORKFLOW AUTOMATION</text>
+    <text class="serif" x="760" y="226" font-size="44" fill="#F8F0F3">$30K <tspan font-style="italic" fill="#E5B5C7">saved / yr</tspan></text>
+    <text class="sans" x="762" y="254" font-size="13.5" fill="#B6A3AC">Operating costs cut 25% with N8N workflows</text>
+  </g>
+  <path class="draw" d="M24 300 H1176" stroke="#C77B9B" stroke-opacity=".3"/>
+    <g class="in" style="animation-delay:0.60s">
+      <circle cx="36" cy="300" r="3.5" fill="#E5B5C7"/>
+      <text class="mono" x="36" y="334" font-size="10" letter-spacing="2" fill="#C77B9B">DATA INTEGRATION</text>
+      <text class="serif" x="35" y="374" font-size="36" fill="#F8F0F3">11GB+</text>
+      <text class="sans" x="36" y="398" font-size="12.5" fill="#B6A3AC">of data integrated</text>
+    </g>
+    <g class="in" style="animation-delay:0.72s">
+      <circle cx="266" cy="300" r="3.5" fill="#E5B5C7"/>
+      <text class="mono" x="266" y="334" font-size="10" letter-spacing="2" fill="#C77B9B">KPIS</text>
+      <text class="serif" x="265" y="374" font-size="36" fill="#F8F0F3">200+</text>
+      <text class="sans" x="266" y="398" font-size="12.5" fill="#B6A3AC">KPIs integrated</text>
+    </g>
+    <g class="in" style="animation-delay:0.84s">
+      <circle cx="496" cy="300" r="3.5" fill="#E5B5C7"/>
+      <text class="mono" x="496" y="334" font-size="10" letter-spacing="2" fill="#C77B9B">HR &amp; PAYROLL</text>
+      <text class="serif" x="495" y="374" font-size="36" fill="#F8F0F3">190+</text>
+      <text class="sans" x="496" y="398" font-size="12.5" fill="#B6A3AC">transactions handled</text>
+    </g>
+    <g class="in" style="animation-delay:0.96s">
+      <circle cx="726" cy="300" r="3.5" fill="#E5B5C7"/>
+      <text class="mono" x="726" y="334" font-size="10" letter-spacing="2" fill="#C77B9B">ACCURACY</text>
+      <text class="serif" x="725" y="374" font-size="36" fill="#F8F0F3">98%</text>
+      <text class="sans" x="726" y="398" font-size="12.5" fill="#B6A3AC">across 197 employees</text>
+    </g>
+    <g class="in" style="animation-delay:1.08s">
+      <circle cx="956" cy="300" r="3.5" fill="#E5B5C7"/>
+      <text class="mono" x="956" y="334" font-size="10" letter-spacing="2" fill="#C77B9B">PROVISIONING</text>
+      <text class="serif" x="955" y="374" font-size="36" fill="#F8F0F3">95%</text>
+      <text class="sans" x="956" y="398" font-size="12.5" fill="#B6A3AC">faster provisioning</text>
+    </g>
+</svg>

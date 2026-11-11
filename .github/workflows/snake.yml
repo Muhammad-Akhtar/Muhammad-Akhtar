@@ -1,0 +1,50 @@
+name: Refresh contribution snake
+
+# Re-renders assets/contribution-snake.svg (the heat-map + snake that the
+# README shows under "05 Commit log") from public GitHub contribution data
+# and commits it back to main. No third-party actions, no extra secrets.
+
+on:
+  schedule:
+    - cron: "30 5 * * *"   # daily, 05:30 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["tools/contributions.mjs", "tools/theme.mjs"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # GraphQL with the built-in token; falls back to the public calendar,
+      # then to the committed snapshot. Never writes invented data.
+      - name: Fetch contributions and render SVG
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/contributions.mjs
+
+      - name: Commit if changed
+        run: |
+          git add assets/contribution-snake.svg tools/data/contributions.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh contribution snake"
+          git push
